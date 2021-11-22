@@ -1,0 +1,147 @@
+<html>
+    <head>
+
+    </head>
+    <style>
+                     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:gray;
+  font-size: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:rosybrown;
+  color: black;
+}
+
+.active {
+  background-color:pink;
+}
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            background-image: url("makeup.jpg");
+            background-size: cover;
+            
+            }
+        .left_sec{
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+            justify-content: center;
+            width: 50%;
+            mix-blend-mode: overlay;
+            height: 100vh;
+            backdrop-filter: blur(4px);
+            padding: 15px;
+           /* font-size: 100px;*/
+          
+
+        }
+        .left_sec h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            letter-spacing: 2px;
+            font-size: 5rem;
+            text-align: right;
+        
+        }
+        .right_sec{
+            width: 50%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+           .infos {
+                   color: white;
+                   font-size: 20px;
+                   padding: 20px;
+                   border-radius: 20px;
+                   backdrop-filter: blur(4px);
+                   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                   text-align: center;
+                   margin-top: 234px;
+                   margin-left: 375px;
+
+}
+               .infos a{
+                   text-decoration: none;
+                   color:rgb(131, 51, 78);
+               }
+               .pp{
+                   font-size: 20px;
+                   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                   background-color: wheat;
+                   color:black;
+                   
+               }
+               button:hover{
+                   background-color:rgb(177, 70, 105);
+                   color: white;
+               }
+               .cop{
+                   height: 100px;
+                   background-color: gray;
+                   opacity: 70%;
+                   font-size: 17.5px;
+                   
+               }
+  
+    </style>
+        <body>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">Products</a></li>
+                <li><a href="#contact">Payment</a></li>
+                <li><a href="#contact">Delivery </a></li>
+                <li><a href="#contact">Shop</a></li>
+                <li><a href="#contact">Infos...</a></li>
+                <li style="float:right"><a class="active" href="#about">About</a></li>
+              </ul>
+            <div class="container">
+                <div class="left_sec">
+            <h1><span>A butterfly will</span><br><span style="color: black;">touch you</span></h1>
+         
+            </div>
+            <div class="infos">
+                <p> Contact <br><a href="">+212 3 69 49 87  </a></p>
+                <p> E-mail <br><a href="">Sihamesin@gmail.com </a></p>
+                <p> Products<br><a href=""><button class="pp"> Click here</button> </a></p>
+            </div>
+        
+          <div class="right_sec">
+           
+          </div>
+          </div>
+          <div class="Cop">
+            <div > Copyright2020<span class="i" style="float: right;">Product Information
+                <br>Products
+                <br>Specification Chart
+                <br>License Options
+                <br>System Requirements
+                </span></div>
+            
+            
+          </div>
+        </body>
+    
+</html>
